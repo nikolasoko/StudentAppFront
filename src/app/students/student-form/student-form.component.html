@@ -1,0 +1,41 @@
+<div class="card">
+    <div class="card-body">
+        <form #studentForm="ngForm">
+            <div class="form-group">
+                <label for="ime">{{'students.create.firstname' | translate}}</label>
+                <input [(ngModel)]="student.firstName" type="text" class="form-control" id="ime" name="ime"
+                    placeholder="{{'students.create.firstnamePlace' | translate}}" required>
+            </div>
+            <div class="form-group">
+                <label for="prezime">{{'students.create.lastname' | translate}}</label>
+                <input [(ngModel)]="student.lastName" type="text" class="form-control" id="prezime" name="prezime"
+                    placeholder="{{'students.create.lastNamePlace' | translate}}" required>
+            </div>
+            <div class="form-group">
+                <label for="jmbag">JMBAG</label>
+                <input [(ngModel)]="student.jmbag" type="text" class="form-control" id="jmbag" name="jmbag"
+                    minlength="10" maxlength="10" placeholder="{{'students.create.jmbagPlace' | translate}}" required #jmbag="ngModel">
+                <div *ngIf="!studentForm.pristine && jmbag.invalid" class="invalid-feedback d-block">
+                    {{'students.create.jmbagError' | translate}}
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="ects">{{'students.create.ects' | translate}}</label>
+                <input [(ngModel)]="student.numberOfECTS" type="number" class="form-control" id="ects" name="ects"
+                    placeholder="{{'students.create.ectsPlace' | translate}}" required>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="float-right">
+                        <button routerLink="/students" [disabled]="saving" class="btn btn-outline-secondary mr-4"
+                            type="button">{{'students.create.discard' | translate}}</button>
+                        <button (click)="save()" [disabled]="!studentForm.valid || saving" class="btn btn-success"
+                            type="button">{{'students.create.save' | translate}}
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

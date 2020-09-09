@@ -1,0 +1,54 @@
+{
+    "language": {
+    "croatian": "Hrvatski",
+    "english": "Engleski",
+    "italian": "Talijanski"
+    },
+    "navbar": {
+    "username": "Korisničko ime",
+    "role": "Uloga",
+    "login": "Prijava",
+    "logout": "Odjava"
+    },
+    "login": {
+    "title": "Prijava",
+    "username": "Korisničko ime",
+    "password": "Lozinka",
+    "loginButton": "Prijava",
+    "loginError": "Neuspješna prijava! Provjerite podatke i pokušajte ponovno.",
+    "userPlace": "Unesite korisničko ime",
+    "passPlace": "Unesite zaporku"
+    },
+    "main": {
+        "studentButton" : "Studenti"
+    },
+    "students": {
+        "title": "Popis studenata",
+        "add": "Dodaj novog studenta",
+        "firstname": "Ime",
+        "lastname": "Prezime",
+        "details": "Detalji",
+        "edit":"Uređivanje",
+        "delete": "Brisanje",
+        "editTitle":"Uređivanje podataka studenta",
+        "create": {
+            "title": "Dodavanje novog studenta",
+            "firstname": "Ime",
+            "lastname": "Prezime",
+            "ects": "Broj ECTSA",
+            "save": "Spremi",
+            "discard": "Odbaci",
+            "firstnamePlace":"Unesite ime",
+            "lastNamePlace":"Unesite prezime",
+            "jmbagPlace":"Unesite jmbag",
+            "jmbagError": "JMBAG mora imati 10 znakova",
+            "ectsPlace":"Unesite broj ects bodova"
+        }
+    },
+    "studentdetail": {
+        "detail": "Detalji studenta",
+        "courses": "Kolegiji na kojima je student upisan",
+        "back": "Povratak na pregled studenta",
+        "pay": "Student treba platiti školarinu."
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "language": {
+    "croatian": "Croatian",
+    "english": "English",
+    "italian": "Italiano"
+    },
+    "navbar": {
+    "username": "nome utente",
+    "role": "ruolo",
+    "login": "accesso",
+    "logout": "disconnettersi"
+    },
+    "login": {
+    "title": "Accesso",
+    "username": "Nome utente",
+    "password": "Parola d'ordine",
+    "loginButton": "Accesso",
+    "loginError": "Accesso fallito! Controlla le tue credenziali e riprova.",
+    "userPlace": "Inserire Nome utente",
+    "passPlace": "Inserire Parola d'ordine"
+    },
+    "main": {
+        "studentButton" : "Studenti"
+    },
+    "students": {
+        "title": "Elenco degli studenti",
+        "add": "Aggiungi nuovo studente",
+        "firstname": "Nome di battesimo",
+        "lastname": "Cognome",
+        "details": "Dettagli",
+        "edit":"Modificare",
+        "delete": "Elimina",
+        "editTitle":"Modifica delle informazioni degli studenti",
+        "create": {
+            "title": "Aggiunta di un nuovo studente",
+            "firstname": "Nome di battesimo",
+            "lastname": "Cognome",
+            "ects": "Numero di ECTS",
+            "save": "Salva",
+            "discard": "Scartare",
+            "firstnamePlace":"Inserisci il nome",
+            "lastNamePlace":"Inserisci il cognome",
+            "jmbagPlace":"Inserisci il jmbag",
+            "jmbagError":"JMBAG deve essere lungo 10 lettere",
+            "ectsPlace":"Inserisci il numero di ECTS"
+        }
+    },
+    "studentdetail": {
+        "detail": "Dettagli dello studente",
+        "courses": "Corsi per studenti attualmente iscritti",
+        "back": "Torna alla panoramica degli studenti",
+        "pay": "Lo studente deve pagare una borsa di studio"
+    }
+    }

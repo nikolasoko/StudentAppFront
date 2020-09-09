@@ -1,0 +1,54 @@
+{
+"language": {
+"croatian": "Croatian",
+"english": "English",
+"italian": "Italian"
+},
+"navbar": {
+"username": "Username",
+"role": "Role",
+"login": "Login",
+"logout": "Logout"
+},
+"login": {
+"title": "Login",
+"username": "Username",
+"password": "Password",
+"loginButton": "Login",
+"loginError": "Login failed! Check your credentials and try again.",
+"userPlace": "Enter username",
+"passPlace": "Enter password"
+},
+"main": {
+    "studentButton" : "Students"
+},
+"students": {
+    "title": "List of Students",
+    "add": "Add new student",
+    "firstname": "First name",
+    "lastname": "Last name",
+    "details": "Details",
+    "edit":"Edit",
+    "delete": "Delete",
+    "editTitle":"Editing students information",
+    "create": {
+        "title": "Adding new student",
+        "firstname": "First name",
+        "lastname": "Last name",
+        "ects": "Number of ECTS",
+        "save": "Save",
+        "discard": "Discard",
+        "firstnamePlace":"Enter first name",
+        "lastNamePlace":"Enter last name",
+        "jmbagPlace":"Enter jmbag",
+        "jmbagError":"JMBAG has to be 10 letters long",
+        "ectsPlace":"Enter number of ECTS"
+    }
+},
+"studentdetail": {
+    "detail": "Student details",
+    "courses": "Courses student is currently enrolled in",
+    "back": "Back to student overview",
+    "pay": "Student has to pay scholarship"
+}
+}
